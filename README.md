@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
 [Awesome Slugify](https://github.com/dimka665/awesome-slugify)
 
 ### Install
