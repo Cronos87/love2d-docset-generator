@@ -233,7 +233,7 @@ class DashLoveParser:
         self.cur = self.conn.cursor()
 
         # Drop the database
-        self.cur.execute('DROP TABLE searchIndex;')
+        self.cur.execute('DROP TABLE IF EXISTS searchIndex;')
 
         # Create the table and its index
         self.cur.execute('CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT);')
