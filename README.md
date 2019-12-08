@@ -16,7 +16,7 @@ pip install beautifulsoup4 awesome-slugify
 Create the directory for the documents:
 
 ```bash
-mkdir love2d.docset/Contents/Resources/Documents
+mkdir -p love2d.docset/Contents/Resources/Documents
 ```
 
 Then, run the python script:
